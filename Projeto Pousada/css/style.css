@@ -1,0 +1,276 @@
+@charset "UTF-8";
+section {
+    background: rgb(164, 207, 243);
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid rgb(209, 187, 187);
+    box-shadow: 2px 0 5px;
+}
+/*começa o cabeçalho*/
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+img {
+    width: 100%;
+    height: 250px;
+}
+
+#menu {
+    position: absolute;
+    width: 85%;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 60px ;
+    font-family: 'Dancing Script', cursive;
+    left: 30px;
+    color: ivory;
+}
+
+.menus {
+    float: left;
+    margin-left: 5px;
+    font-size: 15px;
+    color: ivory;
+}
+/*campo de pesquisa*/
+.openBtn {
+    float: left;
+    background: none;
+    color: ivory;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .openBtn:hover {
+    background: #bbb;
+  }
+  
+  .overlay {
+    height: 30px;
+    width: 90%;
+    display: none;
+  }
+  
+  .overlay-content {
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .overlay .closebtn {
+    position: relative;
+    bottom: -45px;
+    left: 70px;
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(252, 247, 247);
+  }
+  
+  .overlay .closebtn:hover {
+    color: rgb(174, 184, 226);
+  }
+  
+  .overlay input[type=text] {
+    height: 30px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  .overlay input[type=text]:hover {
+    background: #cbf5f1;
+  }
+  
+  .overlay button {
+    float: left;
+    width: auto;
+    height: 32px;
+    background: rgb(215, 219, 235);
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .overlay button:hover {
+    background: rgb(80, 81, 88);
+  }
+
+/*começa a seção */
+
+article {
+    width: 100%;
+    text-align: center;
+}
+
+#foto {
+    width: 98%;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+/*começa a seção do calendario*/
+
+#calendar {
+    background: cornflowerblue;
+    width: 100%;
+    overflow: hidden;
+}
+
+#in, #out {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+
+input#checkin, #checkout {
+    display: block;
+    float: left;
+    width: auto;
+    height: 25px;
+    margin-left: 60px;
+    margin-top: -18px;
+}
+
+#somar {
+    display: block;
+    float: left;
+    width: 80px;
+    background-color: #545cce;
+    border: none;
+    color: white;
+    margin: 15px 5px 15px 12px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font: normal 13px Arial;
+}
+
+#somar:hover {
+    background: #0a1394;
+}
+
+#valor {
+    float: left;
+    margin: 15px  0;
+}
+
+
+#tempo {
+    background: #6f75c2;
+    width: 75px;
+    height: 27px;
+    text-align: center;
+    font-size: 16pt;
+    padding: 5px;
+    margin: 0 12px;
+}
+
+#tempo:hover {
+    background: #fff;
+}
+
+#reserva {
+    float: left;
+    width: auto;
+    margin: 15px 0 0 -2px;
+}
+
+#reservar {
+    background: #545cce;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    font: normal 13px Arial;
+   
+    border: none;
+}
+
+#reservar:hover {
+    background: #0a1394;
+}
+/*começa a seção de fotos*/
+
+#opcoes {
+    display: flexbox;
+    align-items: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+.opc {
+    border: 1px solid #ccc;
+    float: left;
+    width: 120px;
+    height: 180px;
+    margin: 20px;
+    margin-left: 40PX;
+}
+
+.opc:hover {
+    border: 1px solid #777;
+}
+
+div.opc img {
+    width: 98%;
+    height: 98%;
+}
+
+/*começa o rodapé*/
+
+footer {
+    display: block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: #0083ff;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.elementos {
+    float: left;
+    width: 138px;
+    height: auto;
+    margin: 30px;
+}
+
+.elementos:hover {
+    border: 1px solid #777;
+}
+
+#cop {
+    clear: both;
+    border-top: 1px solid #606060;
+    padding-top: 20px;
+}
+
+a {
+    padding: 10px;
+    color: honeydew;
+}
+
+.objetos {
+    width: 120px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

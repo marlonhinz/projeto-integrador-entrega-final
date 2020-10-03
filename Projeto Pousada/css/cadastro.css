@@ -1,0 +1,66 @@
+body {
+    font: Arial bold;
+    font-size: 15pt;
+    text-align: center;
+    background: rgb(252, 251, 251);
+}
+
+section {
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0 auto;
+   
+}
+
+article {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 10px 10px 250px rgb(62, 88, 204);
+}
+
+h1 {
+    font-family: 'Dancing script', cursive;
+    font-size: 60px;
+}
+.fiel {
+   
+    text-align: center;
+    
+}
+
+.cad {
+    
+    width: 350px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.paragrafo {
+    display: block;
+    background: none;
+    float: left;
+    width: 350px;
+    height: 55px;
+    margin-left: 80px;
+   
+}
+
+input {
+    font-size: 15px;
+    width: 97%;
+    height: 30px;
+    left: 0;
+     background: rgb(159, 163, 223);
+}
+
+.botao {
+    background: rgb(69, 86, 179);
+    color: rgb(239, 248, 248);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}

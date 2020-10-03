@@ -1,0 +1,126 @@
+@charset "UTF-8";
+section {
+    background: rgb(205, 216, 219);
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid rgb(209, 187, 187);
+    box-shadow: 2px 0 5px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+}
+
+#menu {
+    position: absolute;
+    width: 89%;
+    bottom: 10px;
+    left: 40px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 60px ;
+    font-family: 'Dancing Script', cursive;
+    left: 30px;
+    color: ivory;
+}
+
+.menus {
+    float: left;
+    margin-left: 5px;
+    font-size: 15px;
+    color: ivory;
+}
+
+figure {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.sobre figcaption {
+    opacity: 0.2;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    overflow: hidden;
+}
+
+figure.sobre:hover figcaption {
+    opacity: 1;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+figcaption > p {
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+#div_mapa {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#mapa {
+    width: 100%;
+    height: 400px;
+    
+}
+
+footer {
+    width: 100%;
+    background: #587fff;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.elementos {
+    float: left;
+    width: 138px;
+    height: auto;
+    margin: 30px;
+}
+
+.elementos:hover {
+    border: 1px solid #777;
+}
+
+#cop {
+    clear: both;
+    border-top: 1px solid #606060;
+    padding-top: 20px;
+}
+
+a {
+    padding: 10px;
+}
+
+.objetos {
+    width: 120px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
